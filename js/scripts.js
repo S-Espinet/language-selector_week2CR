@@ -33,6 +33,7 @@ $(document).ready(function() {
       languagePreference += 2;
     } else if (question3 === "interest3") {
       languagePreference += 3;
+    };
 
     if (question4 === "interest1") {
       languagePreference ++;
@@ -50,10 +51,12 @@ $(document).ready(function() {
       languagePreference += 3;
     };
 
-    if (languagePreference <= ) {
+    if (languagePreference <= 8) {
       $("#languageJS").show();
-    } else if (languagePreference <= ) {
+    } else if (languagePreference <= 11) {
       $("#languagePy").show();
-    } else if (languagePreference <= ) {
+    } else if (languagePreference <= 15) {
       $("#languageC").show();
-  };
+    };
+  });
+});

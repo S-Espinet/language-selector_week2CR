@@ -18,7 +18,7 @@ _This is a webpage that allows users to take a short quiz to get a reccomendatio
 
 ## GitHub Pages Link
 
-* _ _
+* _https://s-espinet.github.io/language-selector_week2CR/_
 
 ## Setup/Installation Requirements
 

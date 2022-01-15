@@ -8,7 +8,7 @@ $(document).ready(function() {
     const question3 = $("input:radio[name=question3]:checked").val();
     const question4 = $("input:radio[name=question4]:checked").val();
     const question5 = $("input:radio[name=question5]:checked").val();
-    let name = $("input#name").val;
+    let person = $("input#person").val();
     let languagePreference = 0;
     
     if (question1 === "interest1") {
@@ -51,13 +51,16 @@ $(document).ready(function() {
       languagePreference += 3;
     };
 
+  
     if (languagePreference <= 8) {
-      $(".name").text(name);
+      $(".person").text(person);
       $("#languageJS").show();
     } else if (languagePreference <= 11) {
+      $(".person").text(person);
       $("#languagePy").show();
     } else if (languagePreference <= 15) {
+      $(".person").text(person);
       $("#languageC").show();
-    };
+      };
   });
 });

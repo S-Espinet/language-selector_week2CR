@@ -14,7 +14,7 @@
 
 ## Description
 
-_This is a webpage that allows users to take a short quiz to get a reccomendation on which programming language they should learn, as well as illustrating my learning progression in web development._
+_This is a webpage that allows users to take a short quiz to get a recommendation on which programming language they should learn, as well as illustrating my learning progression in web development._
 
 ## GitHub Pages Link
 

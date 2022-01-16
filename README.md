@@ -28,6 +28,8 @@ _This is a webpage that allows users to take a short quiz to get a recommendatio
 * _run git clone in terminal into desired directory_
 * _navigate to top level of directory in terminal -or- in your GUI_
 * _type "open index.html" into your terminal, -or- double-click the index.html file in your GUI_
+* _after page loads, fill in name, click radio buttons to select responses, and click the submit button_
+* _to retake quiz, reload page_
 
 ## Known Bugs
 

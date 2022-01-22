@@ -15,7 +15,7 @@ $(document).ready(function() {
       languagePreference ++;
     } else if (question1 === "interest2") {
       languagePreference += 2;
-    } else if (question1 === "interest3") {
+    } else {
       languagePreference += 3;
     };
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
       languagePreference ++;
     } else if (question2 === "interest2") {
       languagePreference += 2;
-    } else if (question2 === "interest3") {
+    } else {
       languagePreference += 3;
     };
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
       languagePreference ++;
     } else if (question3 === "interest2") {
       languagePreference += 2;
-    } else if (question3 === "interest3") {
+    } else {
       languagePreference += 3;
     };
 
@@ -39,7 +39,7 @@ $(document).ready(function() {
       languagePreference ++;
     } else if (question4 === "interest2") {
       languagePreference += 2;
-    } else if (question4 === "interest3") {
+    } else {
       languagePreference += 3;
     };
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
       languagePreference ++;
     } else if (question5 === "interest2") {
       languagePreference += 2;
-    } else if (question5 === "interest3") {
+    } else {
       languagePreference += 3;
     };
 
@@ -58,7 +58,7 @@ $(document).ready(function() {
     } else if (languagePreference <= 11) {
       $(".person").text(person);
       $("#languagePy").show();
-    } else if (languagePreference <= 15) {
+    } else {
       $(".person").text(person);
       $("#languageC").show();
       };
